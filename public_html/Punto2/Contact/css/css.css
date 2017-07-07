@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#banner {
+  color: white;
+  height: 100vh;
+  /*position: relative;*/
+  background: url("../img/10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  background-size: cover;
+}
+#menu1 {
+
+}
+.menu:checked + .pp {
+  margin: 10px 20px;
+  background: blue;
+}
+.pp {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  /*margin: 10px -50vw;*/
+}
+.pp > a {
+  margin: 10px;
+  background: blue;
+  display: block;
+}
+.inicio {
+  display: flex;
+  flex-direction: column;
+  background:rgba(255,0,0, 0.3);
+
+}
+
+.p {
+  text-align: center;
+}
+
+.t {
+  text-align: center;
+}
+
+header {
+  width:100%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+h1 a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+body {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+}
+span[class^="icon"]{
+  padding: 0  30px 0 0;
+
+}
+
+[required]{
+  border-bottom: black;
+
+}
+
+.Contenedor {
+  width: 100vw;
+  height: 100vh;
+  background: steelblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  border: 1px solid black;
+  padding: 2em;
+}
+
+input,label,textarea {
+  display: block;
+  margin: 1em;
+}
+#menu1{
+  display: none;
+}
+input,textarea {
+  border-top: 1px solid black;
+  width: 80%;
+  padding: .5em;
+}
+[type="submit"]{
+  width: 86%;
+}
