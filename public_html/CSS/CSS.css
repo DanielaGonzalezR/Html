@@ -1,0 +1,41 @@
+.tittle{
+  text-align: center;
+}
+.personal {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  /*align-items: center;*/
+  margin: 0 10%;
+}
+.d {
+  display: flex;
+  justify-content:space-between;  
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius:0%;  
+
+}
+.img {
+  display:flex;
+  justify-content:center;
+}
+hr{
+  background: grey;
+  height: 1.5px;
+  width: 100%;
+
+}
+  .pp {
+    text-align: center;
+  }
+@media (min-width: 720px){
+  .s {
+    
+    margin: 0 10%;
+  }
+
+}
