@@ -13,7 +13,7 @@
   background-size: cover;
 }
 #menu1 {
-
+  display: none;
 }
 #menu1:checked ~ .pp {
   transform: translateX(0);
@@ -31,8 +31,9 @@
 
 .pp > a {
   text-decoration: none;
-  padding: 2px;
+  margin: 10px;
   color: white;
+
 
 }
 .inicio {
@@ -81,10 +82,12 @@ span[class^="icon"]{
 .foto {
   width: 200px;
   height: 200px;
+  display: block;
+  margin: 0 auto;
 }
 
 .img {
-  flex-basis: 32%;
+  /*flex-basis: 32%;*/
 }
 
 div {
@@ -134,17 +137,21 @@ div {
 
   }
 }
+.t {
+  text-align: center;
+}
+.p {
+  text-align: center;
+}
 
 font {
   font-size: 50px;
 }
-.Contenedor {
+.contenedor {
   width: 100vw;
   height: 100vh;
-  background: wheat;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 form {
@@ -164,8 +171,6 @@ input,textarea {
 [type="submit"]{
   width: 20%;
 }
-.Contenedor {
-  display: flex
-
+.v {
+  margin: 0 auto
 }
-
